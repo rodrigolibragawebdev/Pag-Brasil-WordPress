@@ -4,6 +4,16 @@
 require_once get_template_directory() . "/inc/class-nav-boostrap-walker.php";
 require_once get_template_directory() . "/inc/class-comment-walker.php";
 
+// REDIRECT TO HOME AUTO
+function my_homepage_redirect()
+{
+  if (is_home() && !is_paged()) {
+    wp_redirect(site_url() . "/home", 301);
+    exit();
+  }
+}
+add_action("template_redirect", "my_homepage_redirect");
+
 // MY THEME
 function my_theme_setup()
 {
