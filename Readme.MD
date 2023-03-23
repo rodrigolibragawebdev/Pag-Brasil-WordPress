@@ -32,7 +32,7 @@
 
 ## Deploy da Aplicação :dash:
 
-> Link do deploy da aplicação: <a href="https://projeto-trocador-de-cores.vercel.app">CLIQUE AQUI</a> (Vercel - simplificada)
+> Link do deploy da aplicação: não foi realizado.
 
 ## Pré-requisitos
 
@@ -71,9 +71,11 @@ No terminal, clone o projeto:
 git clone git@github.com:rodrigolibragawebdev/Pag-Brasil-WordPress.git
 ```
 
-utilize o seu localserver favorito para rodar em localhost
-caminho em seu navegador
-localhost/pagbrasil/ (site)
-localhost/pagbrasil/wp-amind (painel admin cms)
+```
+- utilize o seu localserver favorito para rodar em localhost
+- caminho em seu navegador
+ localhost/pagbrasil/ (site)
+ localhost/pagbrasil/wp-amind (painel admin cms)
+```
 
 -
