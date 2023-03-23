@@ -1,0 +1,345 @@
+/*------------------------------------
+- COLOR pagbrasil-pagbrasil-primary
+------------------------------------*/
+
+$pagbrasil_primary_t1: #007bff;
+$pagbrasil_primary_t2: #0062cc;
+$pagbrasil_primary_t3: #9eccff;
+$pagbrasil_primary_t4: #b7daff;
+$pagbrasil_primary_t5: #003f84;
+$pagbrasil_primary_t6: #005bbc;
+$pagbrasil_primary_t7: #0069db;
+$pagbrasil_primary_t8: #002751;
+$pagbrasil_primary_t9: #cce4ff;
+
+$pagbrasil_primary_shadow: rgba(0, 123, 255, 0.5);
+$pagbrasil_primary_text_color_dark_bright: #fff;
+
+.alert-pagbrasil-primary {
+  color: $pagbrasil_primary_t5;
+  background-color: $pagbrasil_primary_t9;
+  border-color: $pagbrasil_primary_t4;
+}
+
+.alert-pagbrasil-primary hr {
+  border-top-color: $pagbrasil_primary_t3;
+}
+
+.alert-pagbrasil-primary .alert-link {
+  color: $pagbrasil_primary_t8;
+}
+
+.badge-pagbrasil-primary {
+  color: $pagbrasil_primary_text_color_dark_bright;
+  background-color: $pagbrasil_primary_t1;
+}
+
+.badge-pagbrasil-primary[href]:hover,
+.badge-pagbrasil-primary[href]:focus {
+  color: $pagbrasil_primary_text_color_dark_bright;
+  background-color: $pagbrasil_primary_t2;
+}
+
+.bg-pagbrasil-primary {
+  background-color: $pagbrasil_primary_t1 !important;
+}
+
+a.bg-pagbrasil-primary:hover,
+a.bg-pagbrasil-primary:focus,
+button.bg-pagbrasil-primary:hover,
+button.bg-pagbrasil-primary:focus {
+  background-color: $pagbrasil_primary_t2 !important;
+}
+
+.border-pagbrasil-primary {
+  border-color: $pagbrasil_primary_t1 !important;
+}
+
+.btn-pagbrasil-primary {
+  color: $pagbrasil_primary_text_color_dark_bright;
+  background-color: $pagbrasil_primary_t1;
+  border-color: $pagbrasil_primary_t1;
+}
+
+.btn-pagbrasil-primary:hover {
+  color: $pagbrasil_primary_text_color_dark_bright;
+  background-color: $pagbrasil_primary_t7;
+  border-color: $pagbrasil_primary_t2;
+}
+
+.btn-pagbrasil-primary:focus,
+.btn-pagbrasil-primary.focus {
+  box-shadow: 0 0 0 0.2rem $pagbrasil_primary_shadow;
+}
+
+.btn-pagbrasil-primary.disabled,
+.btn-pagbrasil-primary:disabled {
+  color: $pagbrasil_primary_text_color_dark_bright;
+  background-color: $pagbrasil_primary_t1;
+  border-color: $pagbrasil_primary_t1;
+}
+
+.btn-pagbrasil-primary:not(:disabled):not(.disabled):active,
+.btn-pagbrasil-primary:not(:disabled):not(.disabled).active,
+.show > .btn-pagbrasil-primary.dropdown-toggle {
+  color: $pagbrasil_primary_text_color_dark_bright;
+  background-color: $pagbrasil_primary_t2;
+  border-color: $pagbrasil_primary_t6;
+}
+
+.btn-pagbrasil-primary:not(:disabled):not(.disabled):active:focus,
+.btn-pagbrasil-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-pagbrasil-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem $pagbrasil_primary_shadow;
+}
+
+.btn-outline-pagbrasil-primary {
+  color: $pagbrasil_primary_t1;
+  background-color: transparent;
+  border-color: $pagbrasil_primary_t1;
+}
+
+.btn-outline-pagbrasil-primary:hover {
+  color: $pagbrasil_primary_text_color_dark_bright;
+  background-color: $pagbrasil_primary_t1;
+  border-color: $pagbrasil_primary_t1;
+}
+
+.btn-outline-pagbrasil-primary:focus,
+.btn-outline-pagbrasil-primary.focus {
+  box-shadow: 0 0 0 0.2rem $pagbrasil_primary_shadow;
+}
+
+.btn-outline-pagbrasil-primary.disabled,
+.btn-outline-pagbrasil-primary:disabled {
+  color: $pagbrasil_primary_t1;
+  background-color: transparent;
+}
+
+.btn-outline-pagbrasil-primary:not(:disabled):not(.disabled):active,
+.btn-outline-pagbrasil-primary:not(:disabled):not(.disabled).active,
+.show > .btn-outline-pagbrasil-primary.dropdown-toggle {
+  color: $pagbrasil_primary_text_color_dark_bright;
+  background-color: $pagbrasil_primary_t1;
+  border-color: $pagbrasil_primary_t1;
+}
+
+.btn-outline-pagbrasil-primary:not(:disabled):not(.disabled):active:focus,
+.btn-outline-pagbrasil-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-pagbrasil-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem $pagbrasil_primary_shadow;
+}
+
+.list-group-item-pagbrasil-primary {
+  color: $pagbrasil_primary_t5;
+  background-color: $pagbrasil_primary_t4;
+}
+
+.list-group-item-pagbrasil-primary.list-group-item-action:hover,
+.list-group-item-pagbrasil-primary.list-group-item-action:focus {
+  color: $pagbrasil_primary_t5;
+  background-color: $pagbrasil_primary_t3;
+}
+
+.list-group-item-pagbrasil-primary.list-group-item-action.active {
+  color: $pagbrasil_primary_text_color_dark_bright;
+  background-color: $pagbrasil_primary_t5;
+  border-color: $pagbrasil_primary_t5;
+}
+
+.table-pagbrasil-primary,
+.table-pagbrasil-primary > th,
+.table-pagbrasil-primary > td {
+  background-color: $pagbrasil_primary_t4;
+}
+
+.table-hover .table-pagbrasil-primary:hover {
+  background-color: $pagbrasil_primary_t3;
+}
+
+.table-hover .table-pagbrasil-primary:hover > td,
+.table-hover .table-pagbrasil-primary:hover > th {
+  background-color: $pagbrasil_primary_t3;
+}
+
+.text-pagbrasil-primary {
+  color: $pagbrasil_primary_t1 !important;
+}
+
+a.text-pagbrasil-primary:hover,
+a.text-pagbrasil-primary:focus {
+  color: $pagbrasil_primary_t2 !important;
+}
+
+/*------------------------------------
+- COLOR pagbrasil-secondary
+------------------------------------*/
+
+$pagbrasil_secondary_t1: #54ca30;
+$pagbrasil_secondary_t2: #42a026;
+$pagbrasil_secondary_t3: #bbebac;
+$pagbrasil_secondary_t4: #ccf0c1;
+$pagbrasil_secondary_t5: #2a6718;
+$pagbrasil_secondary_t6: #3d9423;
+$pagbrasil_secondary_t7: #48ad29;
+$pagbrasil_secondary_t8: #193d0e;
+$pagbrasil_secondary_t9: #d9f4d1;
+
+$pagbrasil_secondary_shadow: rgba(84, 202, 48, 0.5);
+$pagbrasil_secondary_text_color_dark_bright: #212529;
+
+.alert-pagbrasil-secondary {
+  color: $pagbrasil_secondary_t5;
+  background-color: $pagbrasil_secondary_t9;
+  border-color: $pagbrasil_secondary_t4;
+}
+
+.alert-pagbrasil-secondary hr {
+  border-top-color: $pagbrasil_secondary_t3;
+}
+
+.alert-pagbrasil-secondary .alert-link {
+  color: $pagbrasil_secondary_t8;
+}
+
+.badge-pagbrasil-secondary {
+  color: $pagbrasil_secondary_text_color_dark_bright;
+  background-color: $pagbrasil_secondary_t1;
+}
+
+.badge-pagbrasil-secondary[href]:hover,
+.badge-pagbrasil-secondary[href]:focus {
+  color: $pagbrasil_secondary_text_color_dark_bright;
+  background-color: $pagbrasil_secondary_t2;
+}
+
+.bg-pagbrasil-secondary {
+  background-color: $pagbrasil_secondary_t1 !important;
+}
+
+a.bg-pagbrasil-secondary:hover,
+a.bg-pagbrasil-secondary:focus,
+button.bg-pagbrasil-secondary:hover,
+button.bg-pagbrasil-secondary:focus {
+  background-color: $pagbrasil_secondary_t2 !important;
+}
+
+.border-pagbrasil-secondary {
+  border-color: $pagbrasil_secondary_t1 !important;
+}
+
+.btn-pagbrasil-secondary {
+  color: $pagbrasil_secondary_text_color_dark_bright;
+  background-color: $pagbrasil_secondary_t1;
+  border-color: $pagbrasil_secondary_t1;
+}
+
+.btn-pagbrasil-secondary:hover {
+  color: $pagbrasil_secondary_text_color_dark_bright;
+  background-color: $pagbrasil_secondary_t7;
+  border-color: $pagbrasil_secondary_t2;
+}
+
+.btn-pagbrasil-secondary:focus,
+.btn-pagbrasil-secondary.focus {
+  box-shadow: 0 0 0 0.2rem $pagbrasil_secondary_shadow;
+}
+
+.btn-pagbrasil-secondary.disabled,
+.btn-pagbrasil-secondary:disabled {
+  color: $pagbrasil_secondary_text_color_dark_bright;
+  background-color: $pagbrasil_secondary_t1;
+  border-color: $pagbrasil_secondary_t1;
+}
+
+.btn-pagbrasil-secondary:not(:disabled):not(.disabled):active,
+.btn-pagbrasil-secondary:not(:disabled):not(.disabled).active,
+.show > .btn-pagbrasil-secondary.dropdown-toggle {
+  color: $pagbrasil_secondary_text_color_dark_bright;
+  background-color: $pagbrasil_secondary_t2;
+  border-color: $pagbrasil_secondary_t6;
+}
+
+.btn-pagbrasil-secondary:not(:disabled):not(.disabled):active:focus,
+.btn-pagbrasil-secondary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-pagbrasil-secondary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem $pagbrasil_secondary_shadow;
+}
+
+.btn-outline-pagbrasil-secondary {
+  color: $pagbrasil_secondary_t1;
+  background-color: transparent;
+  border-color: $pagbrasil_secondary_t1;
+}
+
+.btn-outline-pagbrasil-secondary:hover {
+  color: $pagbrasil_secondary_text_color_dark_bright;
+  background-color: $pagbrasil_secondary_t1;
+  border-color: $pagbrasil_secondary_t1;
+}
+
+.btn-outline-pagbrasil-secondary:focus,
+.btn-outline-pagbrasil-secondary.focus {
+  box-shadow: 0 0 0 0.2rem $pagbrasil_secondary_shadow;
+}
+
+.btn-outline-pagbrasil-secondary.disabled,
+.btn-outline-pagbrasil-secondary:disabled {
+  color: $pagbrasil_secondary_t1;
+  background-color: transparent;
+}
+
+.btn-outline-pagbrasil-secondary:not(:disabled):not(.disabled):active,
+.btn-outline-pagbrasil-secondary:not(:disabled):not(.disabled).active,
+.show > .btn-outline-pagbrasil-secondary.dropdown-toggle {
+  color: $pagbrasil_secondary_text_color_dark_bright;
+  background-color: $pagbrasil_secondary_t1;
+  border-color: $pagbrasil_secondary_t1;
+}
+
+.btn-outline-pagbrasil-secondary:not(:disabled):not(.disabled):active:focus,
+.btn-outline-pagbrasil-secondary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-pagbrasil-secondary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem $pagbrasil_secondary_shadow;
+}
+
+.list-group-item-pagbrasil-secondary {
+  color: $pagbrasil_secondary_t5;
+  background-color: $pagbrasil_secondary_t4;
+}
+
+.list-group-item-pagbrasil-secondary.list-group-item-action:hover,
+.list-group-item-pagbrasil-secondary.list-group-item-action:focus {
+  color: $pagbrasil_secondary_t5;
+  background-color: $pagbrasil_secondary_t3;
+}
+
+.list-group-item-pagbrasil-secondary.list-group-item-action.active {
+  color: $pagbrasil_secondary_text_color_dark_bright;
+  background-color: $pagbrasil_secondary_t5;
+  border-color: $pagbrasil_secondary_t5;
+}
+
+.table-pagbrasil-secondary,
+.table-pagbrasil-secondary > th,
+.table-pagbrasil-secondary > td {
+  background-color: $pagbrasil_secondary_t4;
+}
+
+.table-hover .table-pagbrasil-secondary:hover {
+  background-color: $pagbrasil_secondary_t3;
+}
+
+.table-hover .table-pagbrasil-secondary:hover > td,
+.table-hover .table-pagbrasil-secondary:hover > th {
+  background-color: $pagbrasil_secondary_t3;
+}
+
+.text-pagbrasil-secondary {
+  color: $pagbrasil_secondary_t1 !important;
+}
+
+a.text-pagbrasil-secondary:hover,
+a.text-pagbrasil-secondary:focus {
+  color: $pagbrasil_secondary_t2 !important;
+}

@@ -1,0 +1,28 @@
+@media (max-width: 900px) {
+  .footerPartTwo,
+  .footerPartThree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .solveMobileFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    .footerPartOne {
+      padding-bottom: 10px;
+    }
+    .footerPartThree {
+      flex-direction: row;
+      text-align: center;
+      justify-content: center !important;
+      align-items: center;
+      padding-top: 15px;
+    }
+  }
+}

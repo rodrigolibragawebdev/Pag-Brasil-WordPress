@@ -1,0 +1,89 @@
+* {
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+}
+
+.font-italic {
+  color: black !important;
+}
+
+main {
+  min-height: 80vh;
+}
+
+.imgRounded {
+  border-radius: 5px;
+}
+
+p {
+  font-size: default;
+}
+
+h1 {
+  font-size: default;
+}
+
+h2 {
+  font-size: default;
+}
+
+h3 {
+  font-size: default;
+}
+
+h4 {
+  font-size: default;
+}
+
+h5 {
+  font-size: default;
+}
+
+body {
+  background: #f6f6f6 !important;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none !important;
+  box-shadow: none !important;
+  cursor: pointer !important;
+}
+
+i {
+  color: white;
+  transition: 0.3s;
+}
+i:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+// CUSTOM CLASS
+
+.underscore {
+  border-bottom: 5px solid $pagbrasil-primary-t1;
+  border-radius: 10px;
+  width: 30%;
+}
+
+.highlight {
+  color: white !important;
+  color: $pagbrasil-primary-t1;
+}
+
+.btnPagBrasil {
+  background-color: $pagbrasil-primary-t1 !important;
+  color: white !important;
+  &:hover {
+    background-color: $pagbrasil-secondary-t1 !important;
+  }
+  a {
+    color: white !important;
+  }
+}
+
+.imgRounded {
+  border-radius: 5px;
+}

@@ -1,0 +1,65 @@
+.postContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+  h3 {
+    width: 100%;
+  }
+  .postCard {
+    width: 28%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    .imgCard {
+      border-radius: 5px 5px 0 0;
+    }
+    h3 {
+      font-size: 1.4em;
+    }
+    p {
+      font-size: 0.9em;
+    }
+    .postCardContent {
+      padding: 20px;
+    }
+  }
+  .postPagination {
+    width: 70%;
+    gap: 20px;
+  }
+}
+
+@media (min-width: 771px) and (max-width: 1000px) {
+  .postContainer {
+    justify-content: center;
+    .postCard {
+      width: 40%;
+    }
+  }
+}
+
+@media (max-width: 770px) {
+  .postContainer {
+    justify-content: center;
+    .postCard {
+      width: 90%;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .postContainer {
+    margin: 50px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    .postCard {
+      width: 100%;
+    }
+  }
+}
