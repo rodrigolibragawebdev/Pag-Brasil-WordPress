@@ -82,4 +82,18 @@ Passo a passo:
 - o tema automaticamente será aplicado!
 ```
 
--
+## Screenshots exemplo (BD local)
+
+### Home
+<img src="https://tinypic.host/images/2023/03/23/Home-1.png" alt="Home-1.png" border="0">
+
+### Sobre nós
+<img src="https://tinypic.host/images/2023/03/23/Sobre-1.png" alt="Sobre-1.png" border="0">
+
+### Blog
+<img src="https://tinypic.host/images/2023/03/23/Blog-1.png" alt="Blog-1.png" border="0">
+
+### Post
+<img src="https://tinypic.host/images/2023/03/23/Post-1.png" alt="Post-1.png" border="0">
+
+
