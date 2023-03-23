@@ -1,4 +1,4 @@
-<h1>Projeto Pag Brasil WordPress</h1>
+<h1>Projeto tema Pag Brasil - WordPress 6.0.2</h1>
 
 <p align="center">
   
@@ -23,12 +23,12 @@
 ## Descrição do projeto
 
 <p align="justify">
-  Desenvolvimento de Web Site, conforme necessidade da empresa Pag Brasil.
+  Desenvolvimento de tema, conforme necessidade da empresa Pag Brasil.
 </p>
 
 ## Funcionalidades
 
-:heavy_check_mark: acesso as páginas sobre / home / blog, bem como ao CMS admin completo.
+:heavy_check_mark: estruturação de tema para WordPress.
 
 ## Deploy da Aplicação :dash:
 
@@ -72,10 +72,14 @@ git clone git@github.com:rodrigolibragawebdev/Pag-Brasil-WordPress.git
 ```
 
 ```
-- utilize o seu localserver favorito para rodar em localhost
-- caminho em seu navegador
- localhost/pagbrasil/ (site)
- localhost/pagbrasil/wp-amind (painel admin cms)
+Passo a passo:
+- Crie o seu banco de dados (pode ser localhost)
+- Instale ou copie os arquivos da versão 6.0.2 do WordPress
+- Copie o tema para a pasta "/wp-content/themes/"
+- Instale o tema no seu CMS WordPress (acessando o 'seu_endereço/wp-admin')
+- Crie uma página /home - /sobre-nos - /blog (slugs)
+- crie quantos posts desejar (não esqueça das imagens em destaque e categorias)
+- o tema automaticamente será aplicado!
 ```
 
 -

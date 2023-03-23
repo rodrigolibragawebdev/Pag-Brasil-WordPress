@@ -1,0 +1,52 @@
+.headerContainer {
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.1);
+  a {
+    color: black !important;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin: 0 5px;
+    transition: 0.3s;
+    &:hover,
+    &:active,
+    &:focus {
+      color: $pagbrasil-primary-t1 !important;
+    }
+  }
+}
+
+.navbar-toggler {
+  background-color: none !important;
+  border: none !important;
+  &:active,
+  &:hover,
+  &:focus {
+    background-color: none !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+}
+
+.navMenuArea {
+  display: flex;
+  gap: 10px;
+}
+
+@media (max-width: 990px) {
+  .navMenuArea {
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .itemsHeaderContainer {
+    display: flex;
+    justify-content: space-between !important;
+    .customLogoDiv {
+      width: 50%;
+      .custom-logo {
+        width: 100%;
+      }
+    }
+  }
+}
